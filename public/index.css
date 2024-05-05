@@ -502,6 +502,10 @@ footer img {
 
 @media only screen and (max-width: 480px) {
 
+    section,
+    .footer {
+        width: 100%; /* Garante que ocupem 100% da largura da tela */
+    }
     
     .story-description h3 {
         line-height: 2.4rem;
@@ -536,9 +540,6 @@ footer img {
 
 }
 
-@media only screen and (max-width: 440px) {
-
-}
 
 
 
